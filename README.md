@@ -1,12 +1,11 @@
 # DMaker
 
 ## 소개
-
----
+<hr>
 DMaker는 Spring Boot를 사용하여 간단한 개발자 관리 애플리케이션을 구현한다. 이 애플리케이션은 REST API를 통해 개발자 정보를 관리하며, 개발자의 레벨과 스킬 타입을 정의하는 Enum 타입을 사용한다.
 
 ## 프로젝트 구조
-
+<hr>
 이 프로젝트는 다음과 같은 주요 구성 요소로 이루어져 있다:
 
 - `Developer`: 개발자 정보를 저장하는 엔티티 클래스
@@ -15,7 +14,6 @@ DMaker는 Spring Boot를 사용하여 간단한 개발자 관리 애플리케이
 - `DMakerService`: 비즈니스 로직을 처리하는 서비스 클래스
 - `DeveloperLevel`, `DeveloperSkillType`: 개발자의 레벨과 스킬 타입을 정의하는 Enum 클래스
 
----
 
 ### Developer 엔티티 클래스
 데이터베이스 테이블의 구조를 정의한다.
